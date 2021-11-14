@@ -108,6 +108,7 @@ def calculate_variables(
     n_train=None,
     K_train=None,
     K_test=None,
+    **kwargs
 ):
     """Loads necessary data for the tutorials"""
 
@@ -222,4 +223,5 @@ def calculate_variables(
         n_PC=n_PC,
         n_train=n_train,
         n_test=n_test,
+        **kwargs
     )
